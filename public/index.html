@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="center-block">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+
+  <header>
+    <div id="top" class="wpr">WPR</div>
+    <div class="mern">
+      <div class="mern-letter center-block">M</div>
+      <div class="mern-letter center-block">E</div>
+      <div class="mern-letter center-block">R</div>
+      <div class="mern-letter center-block">N</div>
+    </div>
+  </header>
+
+  <article>
+
+    <section id="quiz-name">
+      <div class="quiz-title center-block">
+        <h1>HTML Quiz</h1>
+      </div>
+      <p class="author center-text">By Vu Ngoc Ha Minh</p>
+    </section>
+
+    <section id="introduction">
+      <h2 class="margin-top">The Test</h2>
+      <p class="margin-top">
+        The test contains 10 questions and there is no time limit.
+      </p>
+      <p class="margin-top">
+        The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.
+      </p>
+
+      <h2 class="margin-top">Count Your Score</h2>
+      <p class="margin-top">
+        You will get 1 point for each correct answer. At the end of the Quiz, your total score will be
+        displayed. Maximum score is 10 points.
+      </p>
+
+      <div class="card margin-top">
+        <h2>Start the quiz</h2>
+        <p class="margin-top">Good luck!</p>
+        <button id="start" class="start-btn --blue-btn">Start the HTML quiz ❯</button>
+      </div>
+    </section>
+
+    <section id="attempt-quiz" class="invisible">
+    </section>
+    <div id="submit-field"  class="card margin-top invisible">
+      <button id="submit" class="submit-btn --green-btn ">Submit your answer ></button>
+    </div>
+
+    <section id="review-quiz" class="invisible">
+      <div id="retry-card" class="card margin-top">
+        <h2 class="margin-top">Result:</h2>
+        <h4 class="score margin-top"></h4>
+        <strong class="percentage margin-top"></strong>
+        <p class="feedback margin-top"></p>
+        <div class="question-result">
+        </div>
+        <button id="retry" class="retry-btn --blue-btn">
+          Try again</button>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>
